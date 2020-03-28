@@ -14,9 +14,8 @@ namespace SimpleAPI.Test
         {
             var returnValue = controller.Get(1);
             
-            Assert.Equal("value2", returnValue.Value);
-            
-            
+            Assert.Equal("value1", returnValue.Value);
+                        
         }
 
         [Fact]
